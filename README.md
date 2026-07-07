@@ -31,3 +31,4 @@ No part of any of these works may be reproduced without the formal consent of al
 
 (C) 2026. Lian Rich A. Romano. All Rights Reserved. 
 ```
+Note: All dependencies are listed in [requirements.txt](.//requirements.txt). The raw data is encoded in [amihanen_dataset.csv](.//amihanen_dataset.csv).
