@@ -6,7 +6,7 @@ Model Family:                Gaussian   Df Model:                            7
 Link Function:                    Log   Scale:                      5.0438e-09
 Method:                          IRLS   Log-Likelihood:                 736.02
 Date:                Tue, 07 Jul 2026   Deviance:                   4.1359e-07
-Time:                        07:55:50   Pearson chi2:                 4.14e-07
+Time:                        08:45:27   Pearson chi2:                 4.14e-07
 No. Iterations:                    17   Pseudo R-squ. (CS):              1.000
 Covariance Type:            nonrobust                                         
 ===========================================================================================
