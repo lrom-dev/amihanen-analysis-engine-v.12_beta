@@ -1,27 +1,27 @@
 Table 13
 Omnibus Test Results
-================================================================
-Macro-effect        η²        χ²          p       df  variable  
-----------------------------------------------------------------
-Env.                6.21e-24  3.73e-22    1.000   2   DC_Voltage
-SPL                 1.000     284992.657  < .001  4   DC_Voltage
-Setup               7.22e-24  4.33e-22    1.000   1   DC_Voltage
-Env. × SPL          0.915     646.274     < .001  8   DC_Voltage
-Env. × Setup        2.52e-24  1.51e-22    1.000   2   DC_Voltage
-SPL × Setup         1.000     278787.149  < .001  4   DC_Voltage
-Env. × SPL × Setup  0.914     634.797     < .001  8   DC_Voltage
-Env.                9.33e-24  5.6e-22     1.000   2   DC_Current
-SPL                 1.000     168766.151  < .001  4   DC_Current
-Setup               7.99e-24  4.79e-22    1.000   1   DC_Current
-Env. × SPL          0.891     492.824     < .001  8   DC_Current
-Env. × Setup        1.39e-25  8.35e-24    1.000   2   DC_Current
-SPL × Setup         1.000     166680.497  < .001  4   DC_Current
-Env. × SPL × Setup  0.890     487.869     < .001  8   DC_Current
-Env.                3.16e-24  1.9e-22     1.000   2   DC_Power  
-SPL                 0.999     96865.320   < .001  4   DC_Power  
-Setup               1.21e-24  7.24e-23    1.000   1   DC_Power  
-Env. × SPL          0.950     1129.082    < .001  8   DC_Power  
-Env. × Setup        9.82e-25  5.89e-23    1.000   2   DC_Power  
-SPL × Setup         0.999     95801.610   < .001  4   DC_Power  
-Env. × SPL × Setup  0.949     1119.952    < .001  8   DC_Power  
-================================================================
+==============================================================
+Macro-effect        η²        χ²        p       df  variable  
+--------------------------------------------------------------
+Env.                1.26e-25  7.58e-24  1.000   2   DC_Voltage
+SPL                 0.989     5599.230  < .001  4   DC_Voltage
+Setup               8.97e-26  5.38e-24  1.000   1   DC_Voltage
+Env. × SPL          0.806     249.282   < .001  8   DC_Voltage
+Env. × Setup        6.61e-26  3.97e-24  1.000   2   DC_Voltage
+SPL × Setup         0.209     15.850    .003    4   DC_Voltage
+Env. × SPL × Setup  0.001     0.067     1.000   8   DC_Voltage
+Env.                4.9e-25   2.94e-23  1.000   2   DC_Current
+SPL                 0.990     5959.877  < .001  4   DC_Current
+Setup               5.13e-26  3.08e-24  1.000   1   DC_Current
+Env. × SPL          0.807     250.381   < .001  8   DC_Current
+Env. × Setup        2.4e-25   1.44e-23  1.000   2   DC_Current
+SPL × Setup         0.693     135.250   < .001  4   DC_Current
+Env. × SPL × Setup  0.012     0.732     .999    8   DC_Current
+Env.                9.44e-25  5.67e-23  1.000   2   DC_Power  
+SPL                 0.992     7732.239  < .001  4   DC_Power  
+Setup               1.67e-25  1e-23     1.000   1   DC_Power  
+Env. × SPL          0.624     99.500    < .001  8   DC_Power  
+Env. × Setup        5.26e-25  3.16e-23  1.000   2   DC_Power  
+SPL × Setup         0.800     240.247   < .001  4   DC_Power  
+Env. × SPL × Setup  0.085     5.563     .696    8   DC_Power  
+==============================================================
