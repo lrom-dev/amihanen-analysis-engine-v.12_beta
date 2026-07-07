@@ -56,7 +56,7 @@ def omnibus_factorial_table(df: pd.DataFrame, variable: str) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 def tweedie_family():
-    return sm.families.Tweedie(var_power=1.9, link=sm.families.links.Log())
+    return sm.families.Tweedie(var_power=1.5, link=sm.families.links.Log())
 
 def fit_tweedie_models(df: pd.DataFrame, variable: str):
     full_formula = f"{variable} ~ C(Environment) * C(SPL_dB)"

@@ -3,10 +3,10 @@ Kruskal–Wallis Test Results Across SPL and Environment
 ====================================================================================================
 variable    factor       H_statistic  omnibus_p_value  epsilon_squared  df  k  n   alpha  scope     
 ----------------------------------------------------------------------------------------------------
-DC_Voltage  SPL_dB       42.362       < .001           .959             4   5  45  .010   Standalone
-DC_Voltage  Environment  0.484        .785             < .001           2   3  45  .010   Standalone
-DC_Current  SPL_dB       42.362       < .001           .959             4   5  45  .010   Standalone
-DC_Current  Environment  0.484        .785             < .001           2   3  45  .010   Standalone
-DC_Power    SPL_dB       42.362       < .001           .959             4   5  45  .010   Standalone
-DC_Power    Environment  0.484        .785             < .001           2   3  45  .010   Standalone
+DC_Voltage  SPL_dB       42.362       < .001           .959             4   5  45  .050   Standalone
+DC_Voltage  Environment  0.484        .785             < .001           2   3  45  .050   Standalone
+DC_Current  SPL_dB       42.362       < .001           .959             4   5  45  .050   Standalone
+DC_Current  Environment  0.484        .785             < .001           2   3  45  .050   Standalone
+DC_Power    SPL_dB       42.362       < .001           .959             4   5  45  .050   Standalone
+DC_Power    Environment  0.484        .785             < .001           2   3  45  .050   Standalone
 ====================================================================================================
