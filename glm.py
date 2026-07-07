@@ -382,7 +382,7 @@ def analyze_csv(csv_path, output_dir="glm.selector-output"):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python glm_selector_v4.py data.csv")
+        print("Usage: python glm.py amihanen_data.csv")
         sys.exit(1)
 
     analyze_csv(sys.argv[1])
