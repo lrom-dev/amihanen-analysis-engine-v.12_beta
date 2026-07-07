@@ -1,6 +1,6 @@
 
 """
-glm_selector_v4.py
+glm_selector_v5.py
 
 Advanced GLM + Hurdle Model Selector
 Ranking based on CV metrics only.
@@ -18,6 +18,25 @@ Outputs:
 - ranking.csv
 - ranking.txt
 - best_model_summary.txt
+
+# ==========================================================
+# tweedie_visualizations.py
+#
+# Visualization-only Tweedie-Log GLM analysis
+#
+# Produces:
+#
+# 1. Tweedie fitted curves
+# 2. 3D response surfaces
+# 3. Setup-effect plots
+# 4. Observed vs Predicted plots
+#
+# Responses:
+#   dcVoltage
+#   dcCurrent
+#   dcPower
+#
+# ==========================================================
 """
 
 from __future__ import annotations
@@ -357,7 +376,7 @@ def analyze_dataframe(df, output_dir="outputs/glm_selection_v4"):
     print("\nFinished.")
 
 
-def analyze_csv(csv_path, output_dir="outputs/glm_selection_v4"):
+def analyze_csv(csv_path, output_dir="glm.selector-output/glm_selection_v4"):
     return analyze_dataframe(pd.read_csv(csv_path), output_dir)
 
 
@@ -368,24 +387,6 @@ if __name__ == "__main__":
 
     analyze_csv(sys.argv[1])
 
-# ==========================================================
-# tweedie_visualizations.py
-#
-# Visualization-only Tweedie-Log GLM analysis
-#
-# Produces:
-#
-# 1. Tweedie fitted curves
-# 2. 3D response surfaces
-# 3. Setup-effect plots
-# 4. Observed vs Predicted plots
-#
-# Responses:
-#   dcVoltage
-#   dcCurrent
-#   dcPower
-#
-# ==========================================================
 
 # ==========================================================
 # CONFIGURATION
@@ -393,7 +394,7 @@ if __name__ == "__main__":
 
 CSV_FILE = "amihanen_dataset.csv"
 
-OUTPUT_DIR = Path("figures")
+OUTPUT_DIR = Path("glm-results")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 TWEEDIE_POWER = 1.5
