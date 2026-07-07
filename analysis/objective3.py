@@ -17,7 +17,7 @@ from utils.stats_helpers import (
 )
 
 def _tweedie_family():
-    return sm.families.Tweedie(var_power=1.9, link=sm.families.links.Log())
+    return sm.families.Tweedie(var_power=1.5, link=sm.families.links.Log())
 
 def omnibus_factorial_table(df: pd.DataFrame, variable: str) -> pd.DataFrame:
     full_formula = f"{variable} ~ C(Environment) * C(SPL_dB) * C(Setup)"

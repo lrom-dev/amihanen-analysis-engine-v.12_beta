@@ -376,7 +376,7 @@ def analyze_dataframe(df, output_dir="outputs/glm_selection_v4"):
     print("\nFinished.")
 
 
-def analyze_csv(csv_path, output_dir="glm.selector-output/glm_selection_v4"):
+def analyze_csv(csv_path, output_dir="glm.selector-output"):
     return analyze_dataframe(pd.read_csv(csv_path), output_dir)
 
 
