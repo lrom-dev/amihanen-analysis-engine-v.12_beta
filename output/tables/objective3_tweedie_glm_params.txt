@@ -1,0 +1,51 @@
+Table 11
+Tweedie Log-GLM Parameter Estimates
+=====================================================================================================================================
+term                                      coef       std_err  wald_z     wald_p  ci_low   ci_high  variable    exp_coef              
+-------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                 -40.298    0.013    -3190.261  < .001  -40.323  -40.273  DC_Voltage  < .001                
+C(Environment)[T.Traf.]                   6.04e-14   0.018    3.38e-12   1.000   -0.035   0.035    DC_Voltage  1.000                 
+C(Environment)[T.Comm.]                   -8.84e-14  0.018    -4.95e-12  1.000   -0.035   0.035    DC_Voltage  1.000                 
+C(SPL_dB)[T.70]                           5.33e-14   0.018    2.98e-12   1.000   -0.035   0.035    DC_Voltage  1.000                 
+C(SPL_dB)[T.80]                           33.901     0.162    209.824    < .001  33.584   34.218   DC_Voltage  528537151289208.938   
+C(SPL_dB)[T.90]                           37.128     0.138    269.717    < .001  36.858   37.398   DC_Voltage  13319136212487638.000 
+C(SPL_dB)[T.100]                          40.387     0.117    344.765    < .001  40.158   40.617   DC_Voltage  346720371245689536.000
+C(Environment)[T.Traf.]:C(SPL_dB)[T.70]   1.81e-13   0.025    7.17e-12   1.000   -0.050   0.050    DC_Voltage  1.000                 
+C(Environment)[T.Comm.]:C(SPL_dB)[T.70]   7.99e-14   0.025    3.16e-12   1.000   -0.050   0.050    DC_Voltage  1.000                 
+C(Environment)[T.Traf.]:C(SPL_dB)[T.80]   -0.511     0.231    -2.207     .027    -0.964   -0.057   DC_Voltage  .600                  
+C(Environment)[T.Comm.]:C(SPL_dB)[T.80]   -0.223     0.230    -0.971     .331    -0.673   0.227    DC_Voltage  .800                  
+C(Environment)[T.Traf.]:C(SPL_dB)[T.90]   -3.045     0.211    -14.419    < .001  -3.458   -2.631   DC_Voltage  .048                  
+C(Environment)[T.Comm.]:C(SPL_dB)[T.90]   -2.890     0.210    -13.749    < .001  -3.302   -2.478   DC_Voltage  .056                  
+C(Environment)[T.Traf.]:C(SPL_dB)[T.100]  -2.748     0.178    -15.428    < .001  -3.098   -2.399   DC_Voltage  .064                  
+C(Environment)[T.Comm.]:C(SPL_dB)[T.100]  -1.721     0.173    -9.935     < .001  -2.060   -1.381   DC_Voltage  .179                  
+Intercept                                 -40.359    0.010    -3977.520  < .001  -40.379  -40.339  DC_Current  < .001                
+C(Environment)[T.Traf.]                   -1.74e-13  0.014    -1.21e-11  1.000   -0.028   0.028    DC_Current  1.000                 
+C(Environment)[T.Comm.]                   -2.09e-13  0.014    -1.46e-11  1.000   -0.028   0.028    DC_Current  1.000                 
+C(SPL_dB)[T.70]                           8.08e-14   0.014    5.63e-12   1.000   -0.028   0.028    DC_Current  1.000                 
+C(SPL_dB)[T.80]                           29.357     0.173    169.700    < .001  29.018   29.696   DC_Current  5615918651020.281     
+C(SPL_dB)[T.90]                           32.583     0.147    221.186    < .001  32.295   32.872   DC_Current  141521150005707.562   
+C(SPL_dB)[T.100]                          35.843     0.125    286.115    < .001  35.597   36.088   DC_Current  3684042635068969.500  
+C(Environment)[T.Traf.]:C(SPL_dB)[T.70]   1.05e-12   0.020    5.18e-11   1.000   -0.040   0.040    DC_Current  1.000                 
+C(Environment)[T.Comm.]:C(SPL_dB)[T.70]   8.87e-13   0.020    4.37e-11   1.000   -0.040   0.040    DC_Current  1.000                 
+C(Environment)[T.Traf.]:C(SPL_dB)[T.80]   -0.511     0.248    -2.061     .039    -0.997   -0.025   DC_Current  .600                  
+C(Environment)[T.Comm.]:C(SPL_dB)[T.80]   -0.223     0.246    -0.907     .364    -0.705   0.259    DC_Current  .800                  
+C(Environment)[T.Traf.]:C(SPL_dB)[T.90]   -3.045     0.226    -13.470    < .001  -3.488   -2.602   DC_Current  .048                  
+C(Environment)[T.Comm.]:C(SPL_dB)[T.90]   -2.890     0.225    -12.844    < .001  -3.331   -2.449   DC_Current  .056                  
+C(Environment)[T.Traf.]:C(SPL_dB)[T.100]  -2.748     0.191    -14.422    < .001  -3.122   -2.375   DC_Current  .064                  
+C(Environment)[T.Comm.]:C(SPL_dB)[T.100]  -1.721     0.185    -9.288     < .001  -2.084   -1.358   DC_Current  .179                  
+Intercept                                 -40.361    0.013    -3119.001  < .001  -40.386  -40.336  DC_Power    < .001                
+C(Environment)[T.Traf.]                   -9.15e-14  0.018    -5e-12     1.000   -0.036   0.036    DC_Power    1.000                 
+C(Environment)[T.Comm.]                   -4.72e-14  0.018    -2.58e-12  1.000   -0.036   0.036    DC_Power    1.000                 
+C(SPL_dB)[T.70]                           -6.05e-15  0.018    -3.31e-13  1.000   -0.036   0.036    DC_Power    1.000                 
+C(SPL_dB)[T.80]                           23.240     0.300    77.462     < .001  22.652   23.828   DC_Power    12383353408.330       
+C(SPL_dB)[T.90]                           29.463     0.220    133.949    < .001  29.032   29.894   DC_Power    6247964674201.603     
+C(SPL_dB)[T.100]                          35.935     0.159    225.441    < .001  35.623   36.248   DC_Power    4041055214701536.500  
+C(Environment)[T.Traf.]:C(SPL_dB)[T.70]   2.68e-13   0.026    1.04e-11   1.000   -0.051   0.051    DC_Power    1.000                 
+C(Environment)[T.Comm.]:C(SPL_dB)[T.70]   2.81e-13   0.026    1.09e-11   1.000   -0.051   0.051    DC_Power    1.000                 
+C(Environment)[T.Traf.]:C(SPL_dB)[T.80]   -1.299     0.439    -2.961     .003    -2.159   -0.439   DC_Power    .273                  
+C(Environment)[T.Comm.]:C(SPL_dB)[T.80]   -0.606     0.431    -1.407     .159    -1.451   0.238    DC_Power    .545                  
+C(Environment)[T.Traf.]:C(SPL_dB)[T.90]   -6.137     0.371    -16.543    < .001  -6.864   -5.410   DC_Power    .002                  
+C(Environment)[T.Comm.]:C(SPL_dB)[T.90]   -5.788     0.367    -15.779    < .001  -6.507   -5.069   DC_Power    .003                  
+C(Environment)[T.Traf.]:C(SPL_dB)[T.100]  -5.514     0.263    -20.933    < .001  -6.030   -4.998   DC_Power    .004                  
+C(Environment)[T.Comm.]:C(SPL_dB)[T.100]  -3.441     0.247    -13.913    < .001  -3.926   -2.957   DC_Power    .032                  
+=====================================================================================================================================

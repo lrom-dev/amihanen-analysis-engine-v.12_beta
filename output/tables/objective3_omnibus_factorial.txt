@@ -1,0 +1,27 @@
+Table 13
+Omnibus Test Results
+================================================================
+Macro-effect        η²        χ²          p       df  variable  
+----------------------------------------------------------------
+Env.                6.21e-24  3.73e-22    1.000   2   DC_Voltage
+SPL                 1.000     284992.657  < .001  4   DC_Voltage
+Setup               7.22e-24  4.33e-22    1.000   1   DC_Voltage
+Env. × SPL          0.915     646.274     < .001  8   DC_Voltage
+Env. × Setup        2.52e-24  1.51e-22    1.000   2   DC_Voltage
+SPL × Setup         1.000     278787.149  < .001  4   DC_Voltage
+Env. × SPL × Setup  0.914     634.797     < .001  8   DC_Voltage
+Env.                9.33e-24  5.6e-22     1.000   2   DC_Current
+SPL                 1.000     168766.151  < .001  4   DC_Current
+Setup               7.99e-24  4.79e-22    1.000   1   DC_Current
+Env. × SPL          0.891     492.824     < .001  8   DC_Current
+Env. × Setup        1.39e-25  8.35e-24    1.000   2   DC_Current
+SPL × Setup         1.000     166680.497  < .001  4   DC_Current
+Env. × SPL × Setup  0.890     487.869     < .001  8   DC_Current
+Env.                3.16e-24  1.9e-22     1.000   2   DC_Power  
+SPL                 0.999     96865.320   < .001  4   DC_Power  
+Setup               1.21e-24  7.24e-23    1.000   1   DC_Power  
+Env. × SPL          0.950     1129.082    < .001  8   DC_Power  
+Env. × Setup        9.82e-25  5.89e-23    1.000   2   DC_Power  
+SPL × Setup         0.999     95801.610   < .001  4   DC_Power  
+Env. × SPL × Setup  0.949     1119.952    < .001  8   DC_Power  
+================================================================

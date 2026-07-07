@@ -1,0 +1,9 @@
+Table 12
+Tweedie GLM Diagnostics
+==================================================================================================================
+variable    full_formula                             main_formula                             null_formula    nobs
+------------------------------------------------------------------------------------------------------------------
+DC_Voltage  DC_Voltage ~ C(Environment) * C(SPL_dB)  DC_Voltage ~ C(Environment) + C(SPL_dB)  DC_Voltage ~ 1  45  
+DC_Current  DC_Current ~ C(Environment) * C(SPL_dB)  DC_Current ~ C(Environment) + C(SPL_dB)  DC_Current ~ 1  45  
+DC_Power    DC_Power ~ C(Environment) * C(SPL_dB)    DC_Power ~ C(Environment) + C(SPL_dB)    DC_Power ~ 1    45  
+==================================================================================================================

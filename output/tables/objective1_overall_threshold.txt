@@ -1,0 +1,8 @@
+Table 3
+Overall Threshold by Setup
+=========================================================================
+Setup       threshold_SPL_dB  detection_rate_at_threshold  first_detected
+-------------------------------------------------------------------------
+Integrated  NaN               NaN                          False         
+Standalone  80.000            1.000                        True          
+=========================================================================

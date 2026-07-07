@@ -1,0 +1,9 @@
+Table 4
+Spearman Correlations in Standalone Group
+============================================
+variable    spearman_rho  p_value  n   alpha
+--------------------------------------------
+DC_Voltage  .955          < .001   45  .010 
+DC_Current  .955          < .001   45  .010 
+DC_Power    .955          < .001   45  .010 
+============================================

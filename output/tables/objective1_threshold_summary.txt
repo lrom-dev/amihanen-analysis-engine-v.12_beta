@@ -1,0 +1,12 @@
+Table 2
+Minimum Sound Intensity Threshold by Setup and Environment
+======================================================================================
+Setup       Environment  threshold_SPL_dB  detection_rate_at_threshold  first_detected
+--------------------------------------------------------------------------------------
+Integrated  Comm.        NaN               NaN                          False         
+Integrated  Ind.         NaN               NaN                          False         
+Integrated  Traf.        NaN               NaN                          False         
+Standalone  Comm.        80.000            1.000                        True          
+Standalone  Ind.         80.000            1.000                        True          
+Standalone  Traf.        80.000            1.000                        True          
+======================================================================================

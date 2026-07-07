@@ -1,0 +1,19 @@
+Variable,Statistic,Standalone,Integrated
+DC_Voltage,Median,0.001,0.0
+DC_Voltage,MAD,0.001,0.0
+DC_Voltage,Min,0.0,0.0
+DC_Voltage,Max,1.132,0.0
+DC_Voltage,95% CI LL,0.0,0.0
+DC_Voltage,95% CI UL,0.002,0.0
+DC_Current,Median,1e-05,0.0
+DC_Current,MAD,1e-05,0.0
+DC_Current,Min,0.0,0.0
+DC_Current,Max,0.01132,0.0
+DC_Current,95% CI LL,0.0,0.0
+DC_Current,95% CI UL,2e-05,0.0
+DC_Power,Median,1e-08,0.0
+DC_Power,MAD,1e-08,0.0
+DC_Power,Min,0.0,0.0
+DC_Power,Max,0.01281424,0.0
+DC_Power,95% CI LL,0.0,0.0
+DC_Power,95% CI UL,4e-08,0.0

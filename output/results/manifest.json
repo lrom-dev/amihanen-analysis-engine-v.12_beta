@@ -1,0 +1,74 @@
+{
+  "objective1": {
+    "detection_summary": {
+      "csv": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective1_detection_summary.csv",
+      "txt": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective1_detection_summary.txt"
+    },
+    "threshold_summary": {
+      "csv": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective1_threshold_summary.csv",
+      "txt": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective1_threshold_summary.txt"
+    },
+    "overall_threshold": {
+      "csv": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective1_overall_threshold.csv",
+      "txt": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective1_overall_threshold.txt"
+    },
+    "spearman": {
+      "csv": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective1_spearman_standalone.csv",
+      "txt": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective1_spearman_standalone.txt"
+    },
+    "figure_detection_rate": "/workspaces/amihanen-analysis-engine-v.12_beta/output/figures/objective1_detection_rate.png"
+  },
+  "objective2": {
+    "descriptive_summary": {
+      "csv": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective2_descriptive_summary.csv",
+      "txt": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective2_descriptive_summary.txt"
+    },
+    "overall_descriptives": {
+      "csv": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective2_overall_descriptives.csv",
+      "txt": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective2_overall_descriptives.txt"
+    },
+    "figure_response_curves_DC_Voltage": "/workspaces/amihanen-analysis-engine-v.12_beta/output/figures/objective2_response_curves_DC_Voltage.png",
+    "figure_heatmap_DC_Voltage_Standalone": "/workspaces/amihanen-analysis-engine-v.12_beta/output/figures/objective2_heatmap_DC_Voltage_Standalone.png",
+    "figure_heatmap_DC_Voltage_Integrated": "/workspaces/amihanen-analysis-engine-v.12_beta/output/figures/objective2_heatmap_DC_Voltage_Integrated.png",
+    "figure_response_curves_DC_Current": "/workspaces/amihanen-analysis-engine-v.12_beta/output/figures/objective2_response_curves_DC_Current.png",
+    "figure_heatmap_DC_Current_Standalone": "/workspaces/amihanen-analysis-engine-v.12_beta/output/figures/objective2_heatmap_DC_Current_Standalone.png",
+    "figure_heatmap_DC_Current_Integrated": "/workspaces/amihanen-analysis-engine-v.12_beta/output/figures/objective2_heatmap_DC_Current_Integrated.png",
+    "figure_response_curves_DC_Power": "/workspaces/amihanen-analysis-engine-v.12_beta/output/figures/objective2_response_curves_DC_Power.png",
+    "figure_heatmap_DC_Power_Standalone": "/workspaces/amihanen-analysis-engine-v.12_beta/output/figures/objective2_heatmap_DC_Power_Standalone.png",
+    "figure_heatmap_DC_Power_Integrated": "/workspaces/amihanen-analysis-engine-v.12_beta/output/figures/objective2_heatmap_DC_Power_Integrated.png"
+  },
+  "objective3": {
+    "mann_whitney": {
+      "csv": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective3_mann_whitney.csv",
+      "txt": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective3_mann_whitney.txt"
+    },
+    "kruskal_wallis": {
+      "csv": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective3_kruskal_wallis.csv",
+      "txt": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective3_kruskal_wallis.txt"
+    },
+    "dunn_posthoc": {
+      "csv": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective3_dunn_posthoc.csv",
+      "txt": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective3_dunn_posthoc.txt"
+    },
+    "glm_fit": {
+      "csv": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective3_tweedie_glm_fit.csv",
+      "txt": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective3_tweedie_glm_fit.txt"
+    },
+    "glm_lr": {
+      "csv": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective3_tweedie_glm_lrt.csv",
+      "txt": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective3_tweedie_glm_lrt.txt"
+    },
+    "glm_params": {
+      "csv": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective3_tweedie_glm_params.csv",
+      "txt": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective3_tweedie_glm_params.txt"
+    },
+    "glm_diag": {
+      "csv": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective3_tweedie_glm_diag.csv",
+      "txt": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective3_tweedie_glm_diag.txt"
+    },
+    "omnibus": {
+      "csv": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective3_omnibus_factorial.csv",
+      "txt": "/workspaces/amihanen-analysis-engine-v.12_beta/output/tables/objective3_omnibus_factorial.txt"
+    }
+  }
+}

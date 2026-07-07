@@ -1,0 +1,7 @@
+variable,comparison,lr_statistic,df_diff,p_value
+DC_Voltage,full_vs_null,53.491533668785465,14,1.5688834827995533e-06
+DC_Voltage,full_vs_main_effects,-52.255873335759134,8,1.0
+DC_Current,full_vs_null,-5.363122873692532,14,1.0
+DC_Current,full_vs_main_effects,-95.27282290814395,8,1.0
+DC_Power,full_vs_null,80.46548594539149,14,2.3192316830699696e-11
+DC_Power,full_vs_main_effects,-22.643986200626728,8,1.0

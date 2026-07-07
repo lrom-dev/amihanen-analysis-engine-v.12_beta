@@ -1,0 +1,7 @@
+Setup,Environment,threshold_SPL_dB,detection_rate_at_threshold,first_detected
+Integrated,Comm.,,,False
+Integrated,Ind.,,,False
+Integrated,Traf.,,,False
+Standalone,Comm.,80.0,1.0,True
+Standalone,Ind.,80.0,1.0,True
+Standalone,Traf.,80.0,1.0,True

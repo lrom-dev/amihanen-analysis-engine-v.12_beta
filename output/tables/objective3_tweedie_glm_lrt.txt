@@ -1,0 +1,12 @@
+Table 10
+Tweedie GLM Likelihood-Ratio Tests
+================================================================
+variable    comparison            lr_statistic  df_diff  p_value
+----------------------------------------------------------------
+DC_Voltage  full_vs_null          53.492        14       < .001 
+DC_Voltage  full_vs_main_effects  -52.256       8        1.000  
+DC_Current  full_vs_null          -5.363        14       1.000  
+DC_Current  full_vs_main_effects  -95.273       8        1.000  
+DC_Power    full_vs_null          80.465        14       < .001 
+DC_Power    full_vs_main_effects  -22.644       8        1.000  
+================================================================
