@@ -18,7 +18,6 @@ Program Bash Commands
 
 For main analyses            -->   :   python main.py amihanen_dataset.csv
 For glm testing/selection    -->   :   python glm_selector.py amihanen_dataset.csv
-For visualizing glm results  -->   :   python glm_visualizer.py amihanen_dataset.csv
 ```
 
 This engine was engineered using Gemini 3.1 Pro and ChatGPT 5.5 (Thinking), both using free tier plans. However, the final code for each version became more and more complex after each revision and addition, bloating the code with multiple versions per document as you can see in the prompt documents @ the [prompt-docs](.//prompt-docs/) folder. To avoid this, the researchers re-configured the analysis engine with less files than the previous 11 versions as recorded by each document in the [prompt-docs](.//prompt-docs/) folder, reducing bulk and weight.
