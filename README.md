@@ -21,7 +21,7 @@ For glm testing/selection    -->   :   python glm_selector.py amihanen_dataset.c
 For visualizing glm results  -->   :   python glm_visualizer.py amihanen_dataset.csv
 ```
 
-Initially this engine was engineered using Gemini 3.1 Pro and ChatGPT 5.5 (Thinking), both using free tier plans. However, the final code for each version became more and more complex after each revision and addition, bloating the code with multiple version per document as you can see in the prompt documents @ the [prompt-documents](.//prompt-documents/) folder. To avoid this, the researchers decided to re-engineer the analysis engine, configuring it with less files than the previous 11 versions as recorded by each document in the [prompt-documents](.//prompt-documents/) folder.
+Initially this engine was engineered using Gemini 3.1 Pro and ChatGPT 5.5 (Thinking), both using free tier plans. However, the final code for each version became more and more complex after each revision and addition, bloating the code with multiple version per document as you can see in the prompt documents @ the [prompt-docs](.//prompt-docs/) folder. To avoid this, the researchers decided to re-engineer the analysis engine, configuring it with less files than the previous 11 versions as recorded by each document in the [prompt-docs](.//prompt-docs/) folder.
 
 ```
 COPYRIGHT NOTICE:
