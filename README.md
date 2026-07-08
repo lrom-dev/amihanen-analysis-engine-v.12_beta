@@ -16,7 +16,7 @@ With this in mind, AMIHANEN (Acoustic Mechanical Impulse Harvester Attached to a
 ```
 Program Bash Commands
 
-For main analyses            -->   :   python main.py amihanen_dataset.csv
+For main analyses            -->   :   python main.py
 For glm testing/selection    -->   :   python glm_selector.py amihanen_dataset.csv
 ```
 
