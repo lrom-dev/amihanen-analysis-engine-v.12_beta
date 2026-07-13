@@ -1,4 +1,4 @@
-# Project Title: The AMIHANEN-Analysis-Engine-v.12
+# Project Title: AMIHANEN Analysis Engine (v.12 - Vomit Draft)
 
 ```
 PROGRAM AUTHOR
